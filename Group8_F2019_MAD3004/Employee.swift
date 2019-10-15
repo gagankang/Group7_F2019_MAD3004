@@ -24,6 +24,9 @@ class Employee
       return 2018-age
         
     }
-     
+     func printemp()
+     {
+        print(empID, name, age)
+    }
     
 }
