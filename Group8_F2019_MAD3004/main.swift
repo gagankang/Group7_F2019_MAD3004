@@ -13,3 +13,5 @@ var v1 = Vehicle(make: "Bullet", plate: "CH0123")
 //v1.plate = "CH0123"
 v1.printdata()
 
+var e1 = Employee(empID: 101, name: "Rajdeep", age: 25)
+e1.printemp()

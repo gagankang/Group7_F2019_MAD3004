@@ -9,9 +9,9 @@
 import Foundation
 class Employee
 {
-    var empID: Int!
+    var empID: Int
     var name: String = ""
-    var age: Int!
+    var age: Int
     
     init(empID: Int, name: String, age: Int) {
         self.empID = empID
