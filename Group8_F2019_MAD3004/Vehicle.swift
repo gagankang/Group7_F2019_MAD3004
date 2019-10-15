@@ -12,8 +12,18 @@ class Vehicle
 {
     var make: String = ""
     var plate:  String = ""
+    init(make:String, plate: String) {
+        
+        self.make = make
+        self.plate = plate
+        
+        
+    }
     
-    
+    func printdata()
+    {
+        print(make,plate)
+    }
     
 }
 
