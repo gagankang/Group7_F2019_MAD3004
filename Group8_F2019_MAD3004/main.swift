@@ -8,5 +8,8 @@
 
 import Foundation
 
-
+var v1 = Vehicle(make: "Bullet", plate: "CH0123")
+//v1.make = "Bullet"
+//v1.plate = "CH0123"
+v1.printdata()
 

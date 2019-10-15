@@ -17,7 +17,6 @@ class Vehicle
         self.make = make
         self.plate = plate
         
-        
     }
     
     func printdata()
