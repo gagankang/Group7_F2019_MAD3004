@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class Vehicle
+{
+    var make: String = ""
+    var plate:  String = ""
+    
+    
+    
+}
+
