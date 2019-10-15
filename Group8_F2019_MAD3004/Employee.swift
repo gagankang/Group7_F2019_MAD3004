@@ -22,7 +22,13 @@ class Employee
     func calcBirthYear()-> Int
     {
       return 2018-age
+    
         
+    }
+    
+    func calcEarnings() -> Int
+    {
+        return 1000
     }
      func printemp()
      {
