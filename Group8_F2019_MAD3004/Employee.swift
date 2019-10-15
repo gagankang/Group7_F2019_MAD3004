@@ -9,14 +9,21 @@
 import Foundation
 class Employee
 {
+    var empID: Int!
     var name: String = ""
     var age: Int!
+    
+    init(empID: Int, name: String, age: Int) {
+        self.empID = empID
+        self.name = name
+        self.age = age
+    }
     
     func calcBirthYear()-> Int
     {
       return 2018-age
         
     }
-    
+     
     
 }
