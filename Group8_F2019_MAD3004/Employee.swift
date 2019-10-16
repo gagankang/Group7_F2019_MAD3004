@@ -7,16 +7,24 @@
 //
 
 import Foundation
-class Employee
+class Employee: IPrintable
 {
-    var empID: Int
-    var name: String = ""
-    var age: Int
+    func printData() {
     
-    init(empID: Int, name: String, age: Int) {
+    }
+    
+    var empID: Int
+    var name: String
+    var age: Int
+    var vehicle: String
+    var hasVehicle: Bool
+    
+    init(empID: Int, name: String, age: Int, vehicle: String, hasVehicle: Bool) {
         self.empID = empID
         self.name = name
         self.age = age
+        self.vehicle =  vehicle
+        self.hasVehicle = hasVehicle
     }
     
     func calcBirthYear()-> Int
@@ -30,9 +38,9 @@ class Employee
     {
         return 1000
     }
-     func printemp()
+     func printData()
      {
-        print(empID, name, age)
+        print(empID, name, age, vehicle, hasVehicle)
     }
     
 }
