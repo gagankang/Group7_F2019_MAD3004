@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Vehicle
+class Vehicle: IPrintable
 {
     var make: Int
     var plate:  String
@@ -24,7 +24,7 @@ class Vehicle
         
     }
     
-    func printdata()
+    func printData()
     {
         print(make,plate)
     }
@@ -42,7 +42,7 @@ class Motorcycle: Vehicle
         self.colour =  colour
        
     }
-    override func printdata()
+    override func printData()
     
         
     {
