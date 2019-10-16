@@ -12,7 +12,7 @@ class Vehicle
 {
     var make: String = ""
     var plate:  String = ""
-    init(make:String, plate: String) {
+    init(make: String, plate: String) {
         
         self.make = make
         self.plate = plate
@@ -24,5 +24,18 @@ class Vehicle
         print(make,plate)
     }
     
+
 }
+class Motorcycle: Vehicle
+{
+    
+    var model : String!
+    var colour: String!
+    init(make: String, plate: String, model: String, colour: String) {
+        super.init(make: String, plate: String)
+        self.model = model
+        self.colour =  colour
+       
+    }
+    }
 
