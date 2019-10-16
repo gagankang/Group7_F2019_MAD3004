@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol Iprintable {
+    init()
+    func Print()
+}
