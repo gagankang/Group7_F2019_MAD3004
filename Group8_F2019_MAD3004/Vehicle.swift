@@ -31,11 +31,16 @@ class Motorcycle: Vehicle
     
     var model : String!
     var colour: String!
-    init(make: String, plate: String, model: String, colour: String) {
-        super.init(make: String, plate: String)
+    init(m: String, p: String, model: String, colour: String) {
+        super.init(make: m, plate: p)
         self.model = model
         self.colour =  colour
        
+    }
+    override func printdata()
+    {
+        
+        <#code#>
     }
     }
 
