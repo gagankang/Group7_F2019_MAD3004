@@ -12,11 +12,13 @@ class Employee
     var empID: Int
     var name: String = ""
     var age: Int
+    var vehicle: String
     
-    init(empID: Int, name: String, age: Int) {
+    init(empID: Int, name: String, age: Int, vehicle: String) {
         self.empID = empID
         self.name = name
         self.age = age
+        self.vehicle = vehicle
     }
     
     func calcBirthYear()-> Int
@@ -34,5 +36,6 @@ class Employee
      {
         print(empID, name, age)
     }
+    
     
 }
