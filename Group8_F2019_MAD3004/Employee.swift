@@ -12,7 +12,7 @@ class Employee: IPrintable
     
     
     var empID: Int
-    var name: String = ""
+    var name: String
     var age: Int
     var vehicle: String
     
