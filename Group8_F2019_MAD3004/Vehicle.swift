@@ -12,6 +12,11 @@ class Vehicle
 {
     var make: Int
     var plate:  String
+    init() {
+        self.make = 0
+        self.plate =  String()
+        
+    }
     init(make: Int, plate: String) {
         
         self.make = make
@@ -41,6 +46,7 @@ class Motorcycle: Vehicle
     
         
     {
+        
     }
     }
 
