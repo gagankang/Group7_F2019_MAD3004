@@ -10,9 +10,9 @@ import Foundation
 
 class Vehicle
 {
-    var make: String = ""
-    var plate:  String = ""
-    init(make: String, plate: String) {
+    var make: Int
+    var plate:  String
+    init(make: Int, plate: String) {
         
         self.make = make
         self.plate = plate
@@ -31,16 +31,16 @@ class Motorcycle: Vehicle
     
     var model : String!
     var colour: String!
-    init(m: String, p: String, model: String, colour: String) {
+    init(m: Int, p: String, model: String, colour: String) {
         super.init(make: m, plate: p)
         self.model = model
         self.colour =  colour
        
     }
     override func printdata()
-    {
+    
         
-        <#code#>
+    {
     }
     }
 
