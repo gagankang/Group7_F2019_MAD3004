@@ -10,9 +10,10 @@ import Foundation
 
 class Vehicle: IPrintable
 {
-    var make: Int
-    var plate:  String
-    init() {
+    var make: Int?
+    var plate:  String?
+    init()
+    {
         self.make = 0
         self.plate =  String()
         
@@ -26,7 +27,8 @@ class Vehicle: IPrintable
     
     func printData()
     {
-        print(make,plate)
+        print(self.make!)
+        print(self.plate!)
     }
     
 
