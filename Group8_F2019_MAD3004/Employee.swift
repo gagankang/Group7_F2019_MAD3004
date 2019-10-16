@@ -7,8 +7,10 @@
 //
 
 import Foundation
-class Employee
+class Employee: IPrintable
 {
+    
+    
     var empID: Int
     var name: String = ""
     var age: Int
@@ -32,10 +34,15 @@ class Employee
     {
         return 1000
     }
-     func printemp()
-     {
-        print(empID, name, age)
+    
+    func printData()
+    {
+        print(self.empID)
+        print(self.name)
+        print(self.age)
+        
     }
     
+    }
     
-}
+
