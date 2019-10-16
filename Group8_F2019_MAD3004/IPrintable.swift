@@ -8,8 +8,8 @@
 
 import Foundation
 
-protocol Iprintable
+protocol IPrintable
 {
 
-    func PrintData()
+    func printData()
 }
