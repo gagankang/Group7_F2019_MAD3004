@@ -44,6 +44,11 @@ class Motorcycle: Vehicle
         self.colour =  colour
        
     }
+    
+    class Car: Vehicle
+    {
+        
+    }
     override func printData()
     
         
