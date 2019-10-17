@@ -9,9 +9,7 @@
 import Foundation
 class Employee: IPrintable
 {
-    func printData() {
     
-    }
     
     var empID: Int
     var name: String
@@ -38,9 +36,13 @@ class Employee: IPrintable
     {
         return 1000
     }
-     func printData()
-     {
-        print(empID, name, age, vehicle, hasVehicle)
-    }
-    
-}
+    func printData()
+    {
+        
+            print(self.empID)
+            print(self.name)
+            print(self.age)
+            print(self.vehicle)
+            print(self.hasVehicle)
+        }    }
+
