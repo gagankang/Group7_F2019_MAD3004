@@ -53,7 +53,7 @@ class Motorcycle: Vehicle
         {
             super.init(make: m, plate: p)
             self.carcolour = carcolour
-            
+            self.carmodel = carmodel
         }
     }
     override func printData()
