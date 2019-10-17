@@ -44,5 +44,7 @@ class Employee: IPrintable
             print(self.age)
             print(self.vehicle)
             print(self.hasVehicle)
-        }    }
+        }
+    
+}
 
