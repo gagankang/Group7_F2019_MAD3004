@@ -48,6 +48,7 @@ class Motorcycle: Vehicle
     class Car: Vehicle
     {
         var carcolour : String!
+        var carmodel : String!
     }
     override func printData()
     
