@@ -52,6 +52,7 @@ class Motorcycle: Vehicle
         init(m: Int, p: String, carcolour: String, carmodel: String)
         {
             super.init(make: m, plate: p)
+            self.carcolour = carcolour
             
         }
     }
