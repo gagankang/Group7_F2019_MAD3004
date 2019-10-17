@@ -49,6 +49,8 @@ class Motorcycle: Vehicle
     {
         var carcolour : String!
         var carmodel : String!
+        init(m: Int, p: String, carcolour: String, carmodel: String)
+        {
     }
     override func printData()
     
