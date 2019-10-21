@@ -12,12 +12,7 @@ class Vehicle: IPrintable
 {
     var make: Int?
     var plate:  String?
-    init()
-    {
-        self.make = 0
-        self.plate =  String()
-        
-    }
+ 
     init(make: Int, plate: String) {
         
         self.make = make
@@ -27,8 +22,8 @@ class Vehicle: IPrintable
     
     func printData()
     {
-        print(self.make!)
-        print(self.plate!)
+        print("Make: \(make)")
+        print("Plate: \(plate)")
     }
     
 
@@ -45,23 +40,6 @@ class Motorcycle: Vehicle
        
     }
     
-    class Car: Vehicle
-    {
-        var carcolour : String!
-        var carmodel : String!
-        init(m: Int, p: String, carcolour: String, carmodel: String)
-        {
-            super.init(make: m, plate: p)
-            self.carcolour = carcolour
-            self.carmodel = carmodel
-        }
-    }
-    override func printData()
     
-        
-    {
-        
-        
-    }
     }
 
