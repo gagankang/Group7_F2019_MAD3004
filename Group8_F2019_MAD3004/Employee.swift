@@ -15,6 +15,11 @@ class Employee: IPrintable
     var name: String
     var age: Int
     var vehicle: String
+    var calcBirthYear: Int
+    {
+         return 2018-age
+        
+    }
     var hasVehicle: Bool
     
     init(empID: Int, name: String, age: Int, vehicle: String, hasVehicle: Bool) {
@@ -25,12 +30,12 @@ class Employee: IPrintable
         self.hasVehicle = hasVehicle
     }
     
-    func calcBirthYear()-> Int
-    {
-      return 2018-age
+    //func calcBirthYear()-> Int
+    //{
+     // return 2018-age
     
         
-    }
+   // }
     
     func calcEarnings() -> Int
     {
