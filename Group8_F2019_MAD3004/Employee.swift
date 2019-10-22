@@ -15,6 +15,7 @@ class Employee: IPrintable
     var empName: String
     var empAge: Int
     var earning: Int
+    var vehicle: Vehicle
     var calcBirthYear: Int
     {
          return 2018-empAge
@@ -22,12 +23,14 @@ class Employee: IPrintable
     }
    
     
-    init(empID: Int, empName: String, empAge: Int)
+    init(empID: Int, empName: String, empAge: Int, vehicle: Vehicle, earning: Int)
     {
         self.empID = empID
         self.empName = empName
         self.empAge = empAge
-       
+        self.earning = earning
+        self.vehicle = vehicle
+        
     }
     
     func calcEarnings()
