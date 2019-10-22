@@ -22,6 +22,9 @@ class PartTime : Employee
         super.init(empID: empID, empName: empName, empAge: empAge, vehicle: vehicle, earning: earning)
     }
     
-    
+    override func printData()
+    {
+        
+    }
 
 }
