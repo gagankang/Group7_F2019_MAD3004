@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B0BF70123568B5300E85D95 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BF70023568B5300E85D95 /* Employee.swift */; };
 		9B160F752357CEFD003CC89B /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B160F742357CEFD003CC89B /* IPrintable.swift */; };
-		9B263ACC235E8BE900AB64C9 /* Full Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B263ACB235E8BE900AB64C9 /* Full Time.swift */; };
-		9B843C01235E69FF00F18924 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B843C00235E69FF00F18924 /* Car.swift */; };
-		9B843C03235E719400F18924 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B843C02235E719400F18924 /* Motorcycle.swift */; };
-		9B8C30ED235E86CA009F2DAC /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C30EC235E86CA009F2DAC /* Intern.swift */; };
 		9B94DCF123567B10003242DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94DCF023567B10003242DD /* main.swift */; };
-		9B94DCF823567F3F003242DD /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94DCF723567F3F003242DD /* Vehicle.swift */; };
-		9BF61EFC235E87B4005293F0 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF61EFB235E87B4005293F0 /* PartTime.swift */; };
+		9BA07FBD235FB3F0006CB3ED /* vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FBC235FB3F0006CB3ED /* vehicle.swift */; };
+		9BA07FBF235FB455006CB3ED /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FBE235FB454006CB3ED /* Motorcycle.swift */; };
+		9BA07FC1235FB467006CB3ED /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FC0235FB467006CB3ED /* car.swift */; };
+		9BA07FC7235FB54E006CB3ED /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FC6235FB54E006CB3ED /* Employee.swift */; };
+		9BA07FC9235FB589006CB3ED /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FC8235FB589006CB3ED /* FullTime.swift */; };
+		9BA07FCD235FB5BC006CB3ED /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FCC235FB5BC006CB3ED /* Intern.swift */; };
+		9BA07FD1235FB61D006CB3ED /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FD0235FB61D006CB3ED /* PartTime.swift */; };
+		9BA07FD3235FB69F006CB3ED /* CommissionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FD2235FB69F006CB3ED /* CommissionBasedPartTime.swift */; };
+		9BA07FD5235FB6D4006CB3ED /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FD4235FB6D4006CB3ED /* FixedBasedPartTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,16 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B0BF70023568B5300E85D95 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		9B160F742357CEFD003CC89B /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
-		9B263ACB235E8BE900AB64C9 /* Full Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Full Time.swift"; sourceTree = "<group>"; };
-		9B843C00235E69FF00F18924 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		9B843C02235E719400F18924 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
-		9B8C30EC235E86CA009F2DAC /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
-		9B94DCED23567B10003242DD /* Group8_F2019_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group8_F2019_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B94DCED23567B10003242DD /* Group8_F2019_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Group8_F2019_MAD3004; path = /Users/macstudent/Documents/Group8_F2019_MAD3004/build/Debug/Group8_F2019_MAD3004; sourceTree = "<absolute>"; };
 		9B94DCF023567B10003242DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9B94DCF723567F3F003242DD /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		9BF61EFB235E87B4005293F0 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		9BA07FBC235FB3F0006CB3ED /* vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicle.swift; sourceTree = "<group>"; };
+		9BA07FBE235FB454006CB3ED /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		9BA07FC0235FB467006CB3ED /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
+		9BA07FC6235FB54E006CB3ED /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9BA07FC8235FB589006CB3ED /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		9BA07FCC235FB5BC006CB3ED /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		9BA07FD0235FB61D006CB3ED /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		9BA07FD2235FB69F006CB3ED /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
+		9BA07FD4235FB6D4006CB3ED /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,30 +65,38 @@
 			);
 			sourceTree = "<group>";
 		};
-		9B94DCEE23567B10003242DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9B94DCED23567B10003242DD /* Group8_F2019_MAD3004 */,
-			);
-			name = Products;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		9B94DCEF23567B10003242DD /* Group8_F2019_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9BA07FC5235FB53A006CB3ED /* Employee */,
+				9BA07FBB235FB3BE006CB3ED /* vehicle */,
 				9B94DCF023567B10003242DD /* main.swift */,
-				9B94DCF723567F3F003242DD /* Vehicle.swift */,
-				9B0BF70023568B5300E85D95 /* Employee.swift */,
-				9B8C30EC235E86CA009F2DAC /* Intern.swift */,
 				9B160F742357CEFD003CC89B /* IPrintable.swift */,
-				9B843C00235E69FF00F18924 /* Car.swift */,
-				9B94DCEE23567B10003242DD /* Products */,
-				9B843C02235E719400F18924 /* Motorcycle.swift */,
-				9BF61EFB235E87B4005293F0 /* PartTime.swift */,
-				9B263ACB235E8BE900AB64C9 /* Full Time.swift */,
 			);
 			path = Group8_F2019_MAD3004;
+			sourceTree = "<group>";
+		};
+		9BA07FBB235FB3BE006CB3ED /* vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				9BA07FBC235FB3F0006CB3ED /* vehicle.swift */,
+				9BA07FBE235FB454006CB3ED /* Motorcycle.swift */,
+				9BA07FC0235FB467006CB3ED /* car.swift */,
+			);
+			path = vehicle;
+			sourceTree = "<group>";
+		};
+		9BA07FC5235FB53A006CB3ED /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				9BA07FC6235FB54E006CB3ED /* Employee.swift */,
+				9BA07FC8235FB589006CB3ED /* FullTime.swift */,
+				9BA07FCC235FB5BC006CB3ED /* Intern.swift */,
+				9BA07FD0235FB61D006CB3ED /* PartTime.swift */,
+				9BA07FD2235FB69F006CB3ED /* CommissionBasedPartTime.swift */,
+				9BA07FD4235FB6D4006CB3ED /* FixedBasedPartTime.swift */,
+			);
+			path = Employee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +142,7 @@
 				en,
 			);
 			mainGroup = 9B94DCE423567B10003242DD;
-			productRefGroup = 9B94DCEE23567B10003242DD /* Products */;
+			productRefGroup = 9B94DCE423567B10003242DD;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -144,15 +156,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B94DCF823567F3F003242DD /* Vehicle.swift in Sources */,
-				9B8C30ED235E86CA009F2DAC /* Intern.swift in Sources */,
+				9BA07FC9235FB589006CB3ED /* FullTime.swift in Sources */,
+				9BA07FC7235FB54E006CB3ED /* Employee.swift in Sources */,
+				9BA07FD1235FB61D006CB3ED /* PartTime.swift in Sources */,
+				9BA07FD5235FB6D4006CB3ED /* FixedBasedPartTime.swift in Sources */,
 				9B160F752357CEFD003CC89B /* IPrintable.swift in Sources */,
-				9B843C01235E69FF00F18924 /* Car.swift in Sources */,
-				9B0BF70123568B5300E85D95 /* Employee.swift in Sources */,
-				9B843C03235E719400F18924 /* Motorcycle.swift in Sources */,
+				9BA07FBD235FB3F0006CB3ED /* vehicle.swift in Sources */,
+				9BA07FC1235FB467006CB3ED /* car.swift in Sources */,
+				9BA07FBF235FB455006CB3ED /* Motorcycle.swift in Sources */,
+				9BA07FCD235FB5BC006CB3ED /* Intern.swift in Sources */,
 				9B94DCF123567B10003242DD /* main.swift in Sources */,
-				9BF61EFC235E87B4005293F0 /* PartTime.swift in Sources */,
-				9B263ACC235E8BE900AB64C9 /* Full Time.swift in Sources */,
+				9BA07FD3235FB69F006CB3ED /* CommissionBasedPartTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

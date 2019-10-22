@@ -1,18 +1,17 @@
 //
-//  Vehicle.swift
+//  vehicle.swift
 //  Group8_F2019_MAD3004
 //
-//  Created by MacStudent on 2019-10-15.
+//  Created by MacStudent on 2019-10-22.
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
 import Foundation
-
 class Vehicle: IPrintable
 {
     var make: Int?
     var plate:  String?
- 
+    
     init(make: Int, plate: String)
     {
         
@@ -27,5 +26,4 @@ class Vehicle: IPrintable
         print("Plate: \(plate!)")
     }
     
-    }
-
+}
