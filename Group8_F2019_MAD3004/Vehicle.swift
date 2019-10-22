@@ -23,8 +23,8 @@ class Vehicle: IPrintable
     
     func printData()
     {
-        print("Make: \(make)")
-        print("Plate: \(plate)")
+        print("Make: \(make!)")
+        print("Plate: \(plate!)")
     }
     
     }
