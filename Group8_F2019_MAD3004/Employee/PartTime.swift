@@ -9,17 +9,19 @@
 import Foundation
 class PartTime : Employee
 {
-    var mRate : Int
-    var mHoursworked : Int
-    var mType : Int
+    var Rate : Int
+    var Hoursworked : Int
+    var PType : Int
     
-    init(empID: Int,empName: String,empAge: Int,vehicle: Vehicle?,earning: Int,mRate: Int,mHoursworked: Int,mType: Int)
+    init(empID: Int,empName: String,empAge: Int,vehicle: Vehicle?,earning: Int,Rate: Int,Hoursworked: Int,PType: Int)
     {
-        self.mRate = mRate
-        self.mHoursworked = mHoursworked
-        self.mType = mType
+        self.Rate = Rate
+        self.Hoursworked = Hoursworked
+        self.PType = PType
         
         super.init(empID: empID, empName: empName, empAge: empAge, vehicle: vehicle, earning: earning)
     }
+    
+    
 
 }
