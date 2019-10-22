@@ -15,15 +15,14 @@ class Employee: IPrintable
     var empName: String
     var empAge: Int
     var earning: Int
-    var vehicle: Vehicle
+    var vehicle: Vehicle?
     var calcBirthYear: Int
     {
          return 2018-self.empAge
         
     }
    
-    
-    init(empID: Int, empName: String, empAge: Int, vehicle: Vehicle, earning: Int)
+    init(empID: Int, empName: String, empAge: Int, vehicle: Vehicle?, earning: Int)
     {
         self.empID = empID
         self.empName = empName
@@ -44,6 +43,10 @@ class Employee: IPrintable
         print("Employee Name: \(self.empName)")
         print("Employee Birth Year: \(self.calcBirthYear)")
         
+        if let veh = vehicle
+        {
+            veh.printData()
+        }
         }
     
 }
