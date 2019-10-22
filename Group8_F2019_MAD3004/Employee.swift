@@ -47,6 +47,9 @@ class Employee: IPrintable
         {
             veh.printData()
         }
+        else{
+            print("This Employee has No vehicle")
+        }
         }
     
 }
