@@ -15,6 +15,10 @@ class PartTime : Employee
     
     init(empID: Int,empName: String,empAge: Int,vehicle: Vehicle?,earning: Int,mRate: Int,mHoursworked: Int,mType: Int)
     {
-        <#code#>
+        self.mRate = mRate
+        self.mHoursworked = mHoursworked
+        self.mType = mType
+        
+        
     }
 }
