@@ -8,7 +8,13 @@
 
 import Foundation
 
-class PartTime
+class PartTime : Employee
 {
+    var mRate : Int
+    var mHoursworked : Int
+    var mType : Int
     
+    override init(empID: Int, empName: String, empAge: Int, vehicle: Vehicle?, earning: Int) {
+        <#code#>
+    }
 }
