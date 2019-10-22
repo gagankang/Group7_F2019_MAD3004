@@ -26,9 +26,9 @@ class Employee: IPrintable
         self.earning = earning
         self.eType = eType
     }
-    func calcEarnings()
+    func calcEarnings() -> Float
     {
-    
+      return 1000
     }
     func printData()
     {
