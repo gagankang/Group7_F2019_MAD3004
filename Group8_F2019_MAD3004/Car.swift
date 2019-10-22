@@ -22,8 +22,8 @@ override func printData()
     
 {
     super.printData()
-    print("colour: \(carcolour)")
-    print("Model: \(carmodel)")
+    print("colour: \(carcolour!)")
+    print("Model: \(carmodel!)")
     
 }
 }
