@@ -16,6 +16,13 @@ class Intern: Employee
         super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType)
     }
     
-    
+    override func printData()
+    {
+        print("Employee ID: \(self.empID)")
+        print("Employee Name: \(self.empName)")
+        print("Employee Birth Year: \(self.calcBirthYear)")
+        print("Intern Employee: \(schoolName)")
+        print("Earning of Employe: \(self.earning)")
     }
+}
 
