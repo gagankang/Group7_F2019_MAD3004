@@ -14,7 +14,6 @@ class Employee: IPrintable
     var empID: Int
     var name: String
     var age: Int
-    var vehicle: String
     var earning: Int
     var calcBirthYear: Int
     {
@@ -27,23 +26,13 @@ class Employee: IPrintable
         self.empID = empID
         self.name = name
         self.age = age
-        self.vehicle =  vehicle
-        self.hasVehicle = hasVehicle
+       
     }
     
-    //func calcBirthYear()-> Int
-    //{
-     // return 2018-age
-    
-        
-   // }
     
     func calcEarnings()
     {
-    
-    }
-    {
-        return 1000
+    self.earning = 0
     }
     func printData()
     {
@@ -52,7 +41,7 @@ class Employee: IPrintable
             print(self.name)
             print(self.age)
             print(self.vehicle)
-            print(self.hasVehicle)
+        
         }
     
 }
