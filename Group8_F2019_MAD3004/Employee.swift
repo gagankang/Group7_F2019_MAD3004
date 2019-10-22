@@ -18,7 +18,7 @@ class Employee: IPrintable
     var vehicle: Vehicle
     var calcBirthYear: Int
     {
-         return 2018-empAge
+         return 2018-self.empAge
         
     }
    
@@ -42,7 +42,7 @@ class Employee: IPrintable
         
         print("Employee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
-        print("Employee Age: \(self.empAge)")
+        print("Employee Birth Year: \(self.calcBirthYear)")
         
         }
     
