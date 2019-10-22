@@ -19,6 +19,7 @@ class PartTime : Employee
         self.mHoursworked = mHoursworked
         self.mType = mType
         
-        
+        super.init(empID: empID, empName: empName, empAge: empAge, vehicle: vehicle, earning: earning)
     }
+
 }
