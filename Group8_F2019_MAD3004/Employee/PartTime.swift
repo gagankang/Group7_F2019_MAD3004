@@ -13,7 +13,8 @@ class PartTime : Employee
     var mHoursworked : Int
     var mType : Int
     
-    override init(empID: Int, empName: String, empAge: Int, vehicle: Vehicle?, earning: Int) {
+    init(empID: Int,empName: String,empAge: Int,vehicle: Vehicle?,earning: Int,mRate: Int,mHoursworked: Int,mType: Int)
+    {
         <#code#>
     }
 }
