@@ -14,5 +14,8 @@ class Intern: Employee
     {
         self.schoolName = schoolName
         super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType)
-}
-}
+    }
+    
+    
+    }
+
