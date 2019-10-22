@@ -13,13 +13,12 @@ class PartTime : Employee
     var Hoursworked : Int
     var PType : Int
     
-    init(empID: Int,empName: String,empAge: Int,vehicle: Vehicle?,earning: Int,Rate: Int,Hoursworked: Int,PType: Int)
+    init(empID: Int,empName: String,empAge: Int,earning: Int,Rate: Int, Hoursworked: Int,PType: Int)
     {
         self.Rate = Rate
         self.Hoursworked = Hoursworked
         self.PType = PType
-        
-        super.init(empID: empID, empName: empName, empAge: empAge, vehicle: vehicle, earning: earning)
+        super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType)
     }
     
     override func printData()

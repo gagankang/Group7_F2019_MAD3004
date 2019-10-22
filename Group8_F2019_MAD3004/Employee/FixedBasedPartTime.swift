@@ -7,3 +7,8 @@
 //
 
 import Foundation
+class FixedBasedPartTime: PartTime
+{
+    var fixedAmount: Float
+    
+}
