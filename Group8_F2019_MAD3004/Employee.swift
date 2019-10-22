@@ -12,23 +12,23 @@ class Employee: IPrintable
     
     
     var empID: Int
-    var name: String
-    var age: Int
+    var empName: String
+    var empAge: Int
     var earning: Int
     var calcBirthYear: Int
     {
-         return 2018-age
+         return 2018-empAge
         
     }
    
     
-    init(empID: Int, name: String, age: Int, vehicle: String, hasVehicle: Bool) {
+    init(empID: Int, empName: String, empAge: Int)
+    {
         self.empID = empID
-        self.name = name
-        self.age = age
+        self.empName = empName
+        self.empAge = empAge
        
     }
-    
     
     func calcEarnings()
     {
@@ -37,10 +37,9 @@ class Employee: IPrintable
     func printData()
     {
         
-            print(self.empID)
-            print(self.name)
-            print(self.age)
-            print(self.vehicle)
+        print("Employee ID: \(self.empID)")
+        print("Employee Name: \(self.empName)")
+        print("Employee Age: \(self.empAge)")
         
         }
     
