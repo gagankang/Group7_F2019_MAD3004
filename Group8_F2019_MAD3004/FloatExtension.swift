@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+extension Float
+{
+    func formatHours() -> String
+    {
+        return
+    }
+}
