@@ -13,7 +13,12 @@ class Employee: IPrintable
     var empName: String
     var empAge: Int
     var earning: Int
-    var eType: String
+    enum eType
+    {
+        case FullTime, PartTime, Intern
+        
+    }
+    var empType: eType
     var calcBirthYear: Int
     {
         return 2019-self.empAge
