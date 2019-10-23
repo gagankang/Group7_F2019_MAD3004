@@ -23,10 +23,12 @@ class CommissionBasedPartTime : PartTime
     {
         return ((self.rate * self.hoursWorked) + self.commissionPercentage)
     }
-    override func printData() {
+    override func printData()
+    {
         super.printData()
         
-        print(" Commission percentage: \(calcEarnings())")
+        print(" Commission percentage: \(commissionPercentage)")
+        print(" Employee Earning: \(calcEarnings())")
         
     }
     

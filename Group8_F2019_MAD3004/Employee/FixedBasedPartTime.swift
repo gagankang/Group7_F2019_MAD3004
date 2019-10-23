@@ -24,7 +24,7 @@ class FixedBasedPartTime: PartTime
     {
        super.printData()
         print("Fixed Amount: \(fixedAmount)")
-        print(" Total Earning of Employee: \(calcEarnings())")
+        print("Employee Earning: \(calcEarnings())")
     }
 }
     
