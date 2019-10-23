@@ -8,5 +8,6 @@
 
 import Foundation
 
-var cbpt = CommissionBasedPartTime(empID: 1, empName: "Gagan", empAge: 22, earning: 12000, eType: <#T##String#>, rate: <#T##Float#>, hoursWorked: <#T##Float#>, commissionPercentage: <#T##Float#>)
 
+
+var cbpt = CommissionBasedPartTime(empID: "E01", empName: "gagan", empAge: 25, earning: 12000, empType: Employee.eType.CommissionBasedPartTime, rate: 17, hoursWorked: 39, commissionPercentage: 10)
