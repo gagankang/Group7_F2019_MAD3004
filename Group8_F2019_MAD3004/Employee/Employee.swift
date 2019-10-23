@@ -23,13 +23,13 @@ class Employee: IPrintable
     {
         return 2019-self.empAge
     }
-    init(empID: Int, empName: String, empAge: Int, earning: Int, eType: String)
+    init(empID: Int, empName: String, empAge: Int, earning: Int, empType: eType)
     {
         self.empID = empID
         self.empName = empName
         self.empAge = empAge
         self.earning = earning
-        self.eType = eType
+        self.empType = empType
     }
     func calcEarnings() -> Float
     {

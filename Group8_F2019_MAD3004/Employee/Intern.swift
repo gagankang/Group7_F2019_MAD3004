@@ -10,10 +10,10 @@ import Foundation
 class Intern: Employee
 {
     var schoolName: String
-    init(schoolName: String, empID: Int, empName: String, empAge: Int, earning: Int, eType: String)
+    init(schoolName: String, empID: Int, empName: String, empAge: Int, earning: Int, empType: eType)
     {
         self.schoolName = schoolName
-        super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType)
+        super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, empType: empType)
     }
     
     override func printData()
