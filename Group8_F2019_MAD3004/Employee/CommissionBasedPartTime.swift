@@ -25,6 +25,7 @@ class CommissionBasedPartTime : PartTime
     }
     override func printData() {
         super.printData()
+        
         print(" Commission percentage: \(calcEarnings())")
         
     }

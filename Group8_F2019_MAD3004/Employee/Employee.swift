@@ -44,11 +44,12 @@ class Employee: IPrintable
     func printData()
     {
       
-        print("Employee type:\(empType)")
+       
         print("Employee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
         print("Employee Earning: \(earning)")
         print("Employee Birth Year: \(self.calcBirthYear)")
+         print("Employee is a \(empType)")
         
     
     if (empDictionary.count != 0)
