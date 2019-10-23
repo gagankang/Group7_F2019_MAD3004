@@ -23,7 +23,7 @@ class Intern: Employee
         print("Employee Name: \(self.empName)")
         print("Employee Birth Year: \(self.calcBirthYear)")
         print("Intern Employee: \(schoolName)")
-        print("Earning of Employe: \(self.earning)")
+        print("Earning of Employe: \(self.earning.formatSalary())")
     }
 }
 
