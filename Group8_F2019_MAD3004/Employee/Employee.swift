@@ -13,6 +13,7 @@ class Employee: IPrintable
     var empName: String
     var empAge: Int
     var earning: Float
+    var empDictionary = Dictionary<String, Vehicle>()
     enum eType
     {
         case FullTime, PartTime, Intern, CommissionBasedPartTime, FixedbasedPartTime
@@ -23,13 +24,18 @@ class Employee: IPrintable
     {
         return 2019-self.empAge
     }
-    init(empID: String, empName: String, empAge: Int, earning: Float, empType: eType)
+    init(empID: String, empName: String, empAge: Int, earning: Float ,empType: eType)
     {
+    
         self.empID = empID
         self.empName = empName
         self.empAge = empAge
         self.earning = earning
         self.empType = empType
+    }
+    func addVehicle(V1:Vehicle)
+    {
+        empDictionary.updateValue(V1, forKey: V1.plate)
     }
     func calcEarnings() -> Float
     {
@@ -37,6 +43,7 @@ class Employee: IPrintable
     }
     func printData()
     {
+        if
         print("Employee type:\(empType)")
         print("Employee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
