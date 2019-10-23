@@ -15,7 +15,7 @@ class Employee: IPrintable
     var earning: Int
     enum eType
     {
-        case FullTime, PartTime, Intern
+        case FullTime, PartTime, Intern, CommissionBasedPartTime, FixedbasedPartTime
         
     }
     var empType: eType
@@ -37,9 +37,13 @@ class Employee: IPrintable
     }
     func printData()
     {
+        print("Employee type:\(empType)")
         print("Employee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
+        print("Employee Earning: \(earning)")
         print("Employee Birth Year: \(self.calcBirthYear)")
+        
+        
         
     }
 }
