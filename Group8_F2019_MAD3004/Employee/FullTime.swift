@@ -25,7 +25,7 @@ class FullTime: Employee
     {
         print("Employee is Full time")
         super.printData()
-        print("Salary: \(salary)")
+        print("Salary: \(salary?.formatSalary())")
         print("Bonus: \(bonus)")
     }
     
