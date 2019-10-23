@@ -16,6 +16,9 @@ class FixedBasedPartTime: PartTime
         self.fixedAmount = fixedAmount
         super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType, rate: rate, hoursWorked: hoursWorked)
     }
-    
+    func calcEarnings() -> Float
+    {
+        <#code#>
+    }
     
 }
