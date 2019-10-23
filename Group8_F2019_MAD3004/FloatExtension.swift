@@ -12,6 +12,6 @@ extension Float
 {
     func formatHours() -> String
     {
-        return
+        return "\(self) Hrs" 
     }
 }
