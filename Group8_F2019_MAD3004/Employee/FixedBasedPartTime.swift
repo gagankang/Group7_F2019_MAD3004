@@ -20,7 +20,11 @@ class FixedBasedPartTime: PartTime
     {
         return ((self.rate * self.hoursWorked) + self.fixedAmount)
     }
-    
+    override func printData()
+    {
+       super.printData()
+        print(" Total Earning of Employee: \(calcEarnings())")
+    }
 }
     
 
