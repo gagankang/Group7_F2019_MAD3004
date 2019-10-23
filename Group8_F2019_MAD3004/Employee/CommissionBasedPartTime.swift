@@ -18,8 +18,15 @@ class CommissionBasedPartTime : PartTime
         
         super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType, rate: rate, hoursWorked: hoursWorked)
     }
+    
     override func calcEarnings() -> Float
     {
         return ((self.rate * self.hoursWorked) + self.commissionPercentage)
     }
+    override func printData() {
+        super.printData()
+        print(" Commission percentage: \(calcEarnings())")
+        
+    }
+    
 }
