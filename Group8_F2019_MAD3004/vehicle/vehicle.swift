@@ -27,7 +27,7 @@ class Vehicle: IPrintable
         }
         
         self.make = make
-        if plate.count < 5
+        if plate.count <= 5
         {
             throw vError.InvalidPlateNumber(plate: plate)
         }
