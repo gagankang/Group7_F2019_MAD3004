@@ -8,4 +8,26 @@
 
 import Foundation
 
-
+class Car: Vehicle
+{
+    var carcolour : String
+    var carmodel : String
+    init(make: Int, plate: String, v_Type: vType, carcolour: String, carmodel: String)
+    {
+        
+        self.carcolour = carcolour
+        self.carmodel = carmodel
+        super.init(make: make, plate: plate, v_Type: v_Type)
+        
+    }
+    
+    override func printData()
+        
+    {
+        print("------------------------------")
+        super.printData()
+        print("colour is: \(carcolour)")
+        print("Model: \(carmodel)")
+        
+    }
+}
