@@ -22,7 +22,7 @@ class FullTime: Employee
     }
     override func calcEarnings() -> Float
     {
-        var empearning = salary + bonus
+        let empearning = salary + bonus
         return empearning
         
     }
