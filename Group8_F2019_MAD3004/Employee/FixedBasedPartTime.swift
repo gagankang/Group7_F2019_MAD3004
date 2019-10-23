@@ -23,7 +23,7 @@ class FixedBasedPartTime: PartTime
     override func printData()
     {
        super.printData()
-        print("Fixed Amount: \(fixedAmount)")
+        print("Fixed Amount: \(fixedAmount.formatSalary())")
         print("Employee Earning: \(calcEarnings())")
     }
 }
