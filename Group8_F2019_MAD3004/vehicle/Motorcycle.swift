@@ -9,19 +9,19 @@
 import Foundation
 class Motorcycle: Vehicle
 {
-    var m_colour : String!
-    var m_model : String!
-    init(make: Int, plate: String, m_colour: String, m_model: String)
+    var colour : String
+    var model : String
+    init(make: Int, plate: String, colour: String, model: String)
     {
         super.init(make: make, plate: plate)
-        self.m_colour = m_colour
-        self.m_model = m_model
+        self.colour = colour
+        self.model = model
     }
     override func printData()
     {
         print("------------------------------")
         super.printData()
-        print("colour: \(m_colour)")
-        print("Model: \(m_model)")
+        print("colour of Motorcycle: \(colour)")
+        print("Model of Motorcycle: \(model)")
     }
 }

@@ -12,6 +12,7 @@ class Vehicle: IPrintable
     var make: Int?
     var plate:  String?
     
+    
     init(make: Int, plate: String)
     {
         
