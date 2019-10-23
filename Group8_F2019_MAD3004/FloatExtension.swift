@@ -14,4 +14,8 @@ extension Float
     {
         return "\(self) Hrs" 
     }
+    func formatSalary() -> String
+    {
+        return String(format: "$%0.2f",Float(self))
+    }
 }
