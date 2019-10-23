@@ -23,7 +23,7 @@ var fulltime = FullTime(salary: 20000.50, bonus: 100, empID: "E04", empName: "Ka
 maindict.updateValue(cbpt, forKey: cbpt.empID)
 maindict.updateValue(fixed, forKey: fixed.empID)
 maindict.updateValue(intrn, forKey: intrn.empID)
-maindict.updateValue(fulltime, forKey: fulltime)
+maindict.updateValue(fulltime, forKey: fulltime.empID)
 
 for items in maindict.values
 {
