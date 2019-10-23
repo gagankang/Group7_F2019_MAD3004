@@ -43,14 +43,25 @@ class Employee: IPrintable
     }
     func printData()
     {
-        if
+      
         print("Employee type:\(empType)")
         print("Employee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
         print("Employee Earning: \(earning)")
         print("Employee Birth Year: \(self.calcBirthYear)")
         
-        
-        
+    
+    if (empDictionary.count != 0)
+    {
+    for i in empDictionary.values
+    {
+    i.printData()
     }
+    else
+    {
+    print("*****")
+    }
+    
 }
+    }}
+
