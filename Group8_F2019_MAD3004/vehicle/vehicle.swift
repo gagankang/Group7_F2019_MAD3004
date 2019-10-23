@@ -19,16 +19,17 @@ class Vehicle: IPrintable
     var plate:  String?
     var v_Type: vType
     
-    init(make: Int, plate: String)
+    init(make: Int, plate: String,v_Type: vType)
     {
         
         self.make = make
         self.plate = plate
-        
+        self.v_Type = v_Type
     }
     
     func printData()
     {
+        print("Employee has a: \(v_Type)" )
         print("Make: \(make!)")
         print("Plate: \(plate!)")
     }
