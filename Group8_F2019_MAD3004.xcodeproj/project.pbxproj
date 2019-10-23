@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B160F752357CEFD003CC89B /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B160F742357CEFD003CC89B /* IPrintable.swift */; };
+		9B22D2822360F55E00BA912B /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B22D2812360F55E00BA912B /* ErrorHandling.swift */; };
 		9B94DCF123567B10003242DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94DCF023567B10003242DD /* main.swift */; };
 		9BA07FBD235FB3F0006CB3ED /* vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FBC235FB3F0006CB3ED /* vehicle.swift */; };
 		9BA07FBF235FB455006CB3ED /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FBE235FB454006CB3ED /* Motorcycle.swift */; };
@@ -34,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		9B160F742357CEFD003CC89B /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
+		9B22D27D2360F4AC00BA912B /* Group8_F2019_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group8_F2019_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B22D2812360F55E00BA912B /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		9B94DCF023567B10003242DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BA07FBC235FB3F0006CB3ED /* vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicle.swift; sourceTree = "<group>"; };
 		9BA07FBE235FB454006CB3ED /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
@@ -44,7 +47,6 @@
 		9BA07FD0235FB61D006CB3ED /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
 		9BA07FD2235FB69F006CB3ED /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
 		9BA07FD4235FB6D4006CB3ED /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
-		9BA07FD6235FBE20006CB3ED /* Group8_F2019_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Group8_F2019_MAD3004; path = /Users/macstudent/Documents/Group8_F2019_MAD3004/build/Debug/Group8_F2019_MAD3004; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +60,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B22D27F2360F4E200BA912B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		9B94DCE423567B10003242DD = {
 			isa = PBXGroup;
 			children = (
 				9B94DCEF23567B10003242DD /* Group8_F2019_MAD3004 */,
+				9B22D27D2360F4AC00BA912B /* Group8_F2019_MAD3004 */,
 			);
 			sourceTree = "<group>";
 		};
 		9B94DCEF23567B10003242DD /* Group8_F2019_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9B22D27F2360F4E200BA912B /* Extension */,
 				9BA07FC5235FB53A006CB3ED /* Employee */,
 				9BA07FBB235FB3BE006CB3ED /* vehicle */,
 				9B94DCF023567B10003242DD /* main.swift */,
 				9B160F742357CEFD003CC89B /* IPrintable.swift */,
+				9B22D2812360F55E00BA912B /* ErrorHandling.swift */,
 			);
 			path = Group8_F2019_MAD3004;
 			sourceTree = "<group>";
@@ -116,7 +128,7 @@
 			);
 			name = Group8_F2019_MAD3004;
 			productName = Group8_F2019_MAD3004;
-			productReference = 9BA07FD6235FBE20006CB3ED /* Group8_F2019_MAD3004 */;
+			productReference = 9B22D27D2360F4AC00BA912B /* Group8_F2019_MAD3004 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -165,6 +177,7 @@
 				9BA07FC1235FB467006CB3ED /* car.swift in Sources */,
 				9BA07FBF235FB455006CB3ED /* Motorcycle.swift in Sources */,
 				9BA07FCD235FB5BC006CB3ED /* Intern.swift in Sources */,
+				9B22D2822360F55E00BA912B /* ErrorHandling.swift in Sources */,
 				9B94DCF123567B10003242DD /* main.swift in Sources */,
 				9BA07FD3235FB69F006CB3ED /* CommissionBasedPartTime.swift in Sources */,
 			);
