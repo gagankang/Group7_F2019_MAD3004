@@ -34,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		9B160F742357CEFD003CC89B /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
-		9B94DCED23567B10003242DD /* Group8_F2019_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Group8_F2019_MAD3004; path = /Users/macstudent/Documents/Group8_F2019_MAD3004/build/Debug/Group8_F2019_MAD3004; sourceTree = "<absolute>"; };
 		9B94DCF023567B10003242DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BA07FBC235FB3F0006CB3ED /* vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicle.swift; sourceTree = "<group>"; };
 		9BA07FBE235FB454006CB3ED /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		9BA07FD0235FB61D006CB3ED /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
 		9BA07FD2235FB69F006CB3ED /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
 		9BA07FD4235FB6D4006CB3ED /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
+		9BA07FD6235FBE20006CB3ED /* Group8_F2019_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Group8_F2019_MAD3004; path = /Users/macstudent/Documents/Group8_F2019_MAD3004/build/Debug/Group8_F2019_MAD3004; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 			);
 			name = Group8_F2019_MAD3004;
 			productName = Group8_F2019_MAD3004;
-			productReference = 9B94DCED23567B10003242DD /* Group8_F2019_MAD3004 */;
+			productReference = 9BA07FD6235FBE20006CB3ED /* Group8_F2019_MAD3004 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

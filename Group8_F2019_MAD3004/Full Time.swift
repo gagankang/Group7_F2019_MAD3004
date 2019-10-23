@@ -9,11 +9,9 @@
 import Foundation
 class FullTime: Employee
 {
-    var salary: Float
-    var bonus: Float
+    var salary: Float?
+    var bonus: Float?
     
-    override init(empID: Int, empName: String, empAge: Int, vehicle: Vehicle?, earning: Int) {
-        <#code#>
-    }
+    
     
 }

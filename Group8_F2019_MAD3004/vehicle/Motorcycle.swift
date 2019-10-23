@@ -13,9 +13,10 @@ class Motorcycle: Vehicle
     var model : String
     init(make: Int, plate: String, colour: String, model: String)
     {
-        super.init(make: make, plate: plate)
         self.colour = colour
         self.model = model
+        super.init(make: make, plate: plate)
+        
     }
     override func printData()
     {
