@@ -21,7 +21,7 @@ class CommissionBasedPartTime : PartTime
     
     override func calcEarnings() -> Float
     {
-        return ((self.rate * self.hoursWorked) + self.commissionPercentage)
+        return ((self.rate * self.hoursWorked.formatHours()) + self.commissionPercentage)
     }
     override func printData()
     {
