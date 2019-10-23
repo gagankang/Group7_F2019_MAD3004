@@ -47,7 +47,7 @@ class Employee: IPrintable
        
         print("Employee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
-        print("Employee Earning: \(earning)")
+        print("Employee Earning: \(earning.formatSalary())")
         print("Employee Birth Year: \(self.calcBirthYear)")
          print("Employee is a \(empType)")
         
