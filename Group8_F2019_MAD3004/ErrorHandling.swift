@@ -11,5 +11,4 @@ enum vError: Error
 {
     case InvalidPlateNumber(plate: String)
     case InvalidMakeYear(make: Int)
-    case InvalidMakeYear
 }
