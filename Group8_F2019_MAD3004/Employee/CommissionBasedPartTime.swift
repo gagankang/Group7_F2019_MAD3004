@@ -12,11 +12,11 @@ class CommissionBasedPartTime : PartTime
 {
     var commissionPercentage : Float
     
-    init(empID: Int, empName: String, empAge: Int, earning: Int, eType: String, rate: Float, hoursWorked: Float,commissionPercentage: Float)
+    init(empID: String, empName: String, empAge: Int, earning: Float, empType: eType, rate: Float, hoursWorked: Float,commissionPercentage: Float)
     {
         self.commissionPercentage = commissionPercentage
         
-        super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, eType: eType, rate: rate, hoursWorked: hoursWorked)
+        super.init(empID: empID, empName: empName, empAge: empAge, earning: earning, empType: empType, rate: rate, hoursWorked: hoursWorked)
     }
     
     override func calcEarnings() -> Float

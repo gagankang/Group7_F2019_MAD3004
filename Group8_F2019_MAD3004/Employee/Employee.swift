@@ -9,10 +9,10 @@
 import Foundation
 class Employee: IPrintable
 {
-    var empID: Int
+    var empID: String
     var empName: String
     var empAge: Int
-    var earning: Int
+    var earning: Float
     enum eType
     {
         case FullTime, PartTime, Intern, CommissionBasedPartTime, FixedbasedPartTime
@@ -23,7 +23,7 @@ class Employee: IPrintable
     {
         return 2019-self.empAge
     }
-    init(empID: Int, empName: String, empAge: Int, earning: Int, empType: eType)
+    init(empID: String, empName: String, empAge: Int, earning: Float, empType: eType)
     {
         self.empID = empID
         self.empName = empName

@@ -12,19 +12,19 @@ class Car: Vehicle
 {
     var carcolour : String
     var carmodel : String
-    init(make: Int, plate: String, v_Type: vType, carcolour: String, carmodel: String)
+    init(make: Int, plate: String, v_Type: vType, carcolour: String, carmodel: String) throws
     {
         
         self.carcolour = carcolour
         self.carmodel = carmodel
-        super.init(make: make, plate: plate, v_Type: v_Type)
+        try super.init(make: make, plate: plate, v_Type: v_Type)
         
     }
     
     override func printData()
         
     {
-        print("------------------------------")
+        print("Employee has a car")
         super.printData()
         print("colour is: \(carcolour)")
         print("Model: \(carmodel)")

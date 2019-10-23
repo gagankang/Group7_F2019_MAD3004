@@ -13,7 +13,7 @@ class PartTime : Employee
     var hoursWorked : Float
     
     
-    init(empID: Int,empName: String,empAge: Int,earning: Int,empType: eType, rate: Float, hoursWorked: Float)
+    init(empID: String,empName: String,empAge: Int,earning: Float,empType: eType, rate: Float, hoursWorked: Float)
     {
         self.rate = rate
         self.hoursWorked = hoursWorked

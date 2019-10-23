@@ -13,7 +13,7 @@ class FullTime: Employee
     var salary: Float?
     var bonus: Float?
     
-    init(salary: Float, bonus: Float ,empID: Int, empName: String, empAge: Int, earning: Int, empType: eType)
+    init(salary: Float, bonus: Float ,empID: String, empName: String, empAge: Int, earning: Float, empType: eType)
     {
         self.salary = salary
         self.bonus =  bonus

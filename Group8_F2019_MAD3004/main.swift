@@ -8,4 +8,5 @@
 
 import Foundation
 
+var cbpt = CommissionBasedPartTime(empID: 1, empName: "Gagan", empAge: 22, earning: 12000, eType: <#T##String#>, rate: <#T##Float#>, hoursWorked: <#T##Float#>, commissionPercentage: <#T##Float#>)
 
