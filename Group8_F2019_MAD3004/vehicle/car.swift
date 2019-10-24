@@ -24,9 +24,9 @@ class Car: Vehicle
     override func printData()
         
     {
-        print("Employee has a car")
+       
         super.printData()
-        print("colour is: \(carcolour)")
+        print("colour: \(carcolour)")
         print("Model: \(carmodel)")
         
     }
