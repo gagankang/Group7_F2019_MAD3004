@@ -67,7 +67,7 @@ class Employee: IPrintable
     
 }
         print("\n*************    Employee Type   ****************")
-        
+        print("Employee is a \(empType)")
         
     }}
 
