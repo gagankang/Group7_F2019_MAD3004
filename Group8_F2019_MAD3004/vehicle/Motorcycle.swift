@@ -22,7 +22,7 @@ class Motorcycle: Vehicle
     {
         print("------------------------------")
         super.printData()
-        print("colour of Motorcycle: \(colour)")
-        print("Model of Motorcycle: \(model)")
+        print("  colour: \(colour)")
+        print("  Model: \(model)")
     }
 }

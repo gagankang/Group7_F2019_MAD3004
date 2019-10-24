@@ -27,8 +27,8 @@ class CommissionBasedPartTime : PartTime
     {
         super.printData()
         
-        print(" Commission percentage: \(commissionPercentage)")
-        print(" Employee Earning: \(calcEarnings())")
+        print("Commission percentage: \(commissionPercentage)")
+        print("Employee Earning: \(calcEarnings())")
         
     }
     
