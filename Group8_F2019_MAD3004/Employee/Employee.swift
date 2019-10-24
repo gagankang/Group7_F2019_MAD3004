@@ -50,20 +50,24 @@ class Employee: IPrintable
         print("Employee Name: \(self.empName)")
         print("Employee Earning: \(earning.formatSalary())")
         print("Employee Birth Year: \(self.calcBirthYear)")
-         print("Employee is a \(empType)")
+        
         
     
     if (empDictionary.count != 0)
     {
     for i in empDictionary.values
     {
-    i.printData()
+         print("**********    Vehicle Information   *************")
+        i.printData()
         }}
     else
         {
-    print("****************************************")
+            print("**********    Vehicle Information   *************")
     print("Employee has No Vehicle")
     
 }
+        print("*************    Employee Type   ****************")
+        print("Employee is a \(empType)")
+        
     }}
 
