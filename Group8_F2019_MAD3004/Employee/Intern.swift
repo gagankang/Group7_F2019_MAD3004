@@ -19,7 +19,7 @@ class Intern: Employee
     override func printData()
     {
     
-        //print("Employee ID: \(self.empID)")
+        
         //print("Employee Name: \(self.empName)")
         //print("Employee Birth Year: \(self.calcBirthYear)")
         super.printData()
