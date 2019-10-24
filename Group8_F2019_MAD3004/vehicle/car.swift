@@ -14,10 +14,13 @@ class Car: Vehicle
     var carmodel : String
     init(make: Int, plate: String, v_Type: vType, carcolour: String, carmodel: String) throws
     {
-        
+        guard make > 2005 else
+        {
+            throw vError.InvalidMakeYear
+        }
         self.carcolour = carcolour
         self.carmodel = carmodel
-       try  super.init(make: make, plate: plate, v_Type: v_Type)
+        super.init(make: make, plate: plate, v_Type: v_Type)
         
     }
     

@@ -20,18 +20,10 @@ class Vehicle: IPrintable
     }
     var v_Type: vType
     
-    init(make: Int, plate: String,v_Type: vType) throws
+    init(make: Int, plate: String,v_Type: vType)
     {
-       if make < 2005
-       {
-           throw vError.InvalidMakeYear(make: make)
-       }
-
+       
         self.make = make
-       if plate.count <= 5
-       {
-           throw vError.InvalidPlateNumber(plate: plate)
-        }
         self.plate = plate
         self.v_Type = v_Type
     }

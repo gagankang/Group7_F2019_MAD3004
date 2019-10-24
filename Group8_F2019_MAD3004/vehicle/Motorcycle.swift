@@ -13,9 +13,13 @@ class Motorcycle: Vehicle
     var model : String
     init(make: Int, plate: String,v_Type: vType, colour: String, model: String) throws
     {
+        guard plate.count > 5 else
+        {
+            throw vError.InvalidPlateNumber
+        }
         self.colour = colour
         self.model = model
-        try super.init(make: make, plate: plate, v_Type: v_Type)
+        super.init(make: make, plate: plate, v_Type: v_Type)
         
     }
     override func printData()

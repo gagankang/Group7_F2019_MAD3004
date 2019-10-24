@@ -45,8 +45,8 @@ class Employee: IPrintable
     func printData()
     {
       
-       
-        print("Employee ID: \(self.empID)")
+        print("\n-------------------------------------------------")
+        print("\nEmployee ID: \(self.empID)")
         print("Employee Name: \(self.empName)")
         print("Employee Earning: \(earning.formatSalary())")
         print("Employee Birth Year: \(self.calcBirthYear)")
