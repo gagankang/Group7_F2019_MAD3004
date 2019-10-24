@@ -60,7 +60,8 @@ class Employee: IPrintable
         }}
     else
         {
-    print("*****")
+    print("****************************************")
+    print("Employee has No Vehicle")
     
 }
     }}
