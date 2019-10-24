@@ -36,6 +36,7 @@ class Employee: IPrintable
     func addVehicle(V1:Vehicle)
     {
         empDictionary.updateValue(V1, forKey: V1.plate)
+        
     }
     func calcEarnings() -> Float
     {
