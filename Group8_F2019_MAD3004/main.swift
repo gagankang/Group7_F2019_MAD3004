@@ -38,7 +38,8 @@ do {
         fixed.printData()
         print("Invalid make year")
     }
-//fixed.printData()
+
+
 //    catch{
 //        print(error.localizedDescription)
 //    }

@@ -31,8 +31,8 @@ class Vehicle: IPrintable
     func printData()
     {
         print("Employee has a \(v_Type)" )
-        print("  Make: \(make)")
-        print("  Plate: \(plate)")
+        print("Make: \(make)")
+        print("Plate: \(plate)")
     }
     
 }
