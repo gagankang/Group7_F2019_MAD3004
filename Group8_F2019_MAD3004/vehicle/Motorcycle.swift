@@ -24,7 +24,7 @@ class Motorcycle: Vehicle
     }
     override func printData()
     {
-        //print("------------------------------")
+        
         super.printData()
         print("colour: \(colour)")
         print("Model: \(model)")
