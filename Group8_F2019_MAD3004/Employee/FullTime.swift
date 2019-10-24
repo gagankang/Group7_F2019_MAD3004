@@ -33,6 +33,7 @@ class FullTime: Employee
         super.printData()
         print("Salary: \(salary.formatSalary())")
         print("Bonus: \(bonus.formatSalary())")
+        print("Employee Earning is: \(calcEarnings().formatSalary())")
     }
     
     
