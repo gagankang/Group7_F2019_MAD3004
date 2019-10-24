@@ -57,16 +57,16 @@ class Employee: IPrintable
     {
     for i in empDictionary.values
     {
-         print("**********    Vehicle Information   *************")
+         print("\n**********    Vehicle Information   *************")
         i.printData()
         }}
     else
         {
-            print("**********    Vehicle Information   *************")
+            print("\n**********    Vehicle Information   *************")
     print("Employee has No Vehicle")
     
 }
-        print("*************    Employee Type   ****************")
+        print("\n*************    Employee Type   ****************")
         print("Employee is a \(empType)")
         
     }}
