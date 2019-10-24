@@ -8,15 +8,16 @@
 
 import Foundation
 
-enum vType
-{
-    case car
-    case motorcycle
-}
+
 class Vehicle: IPrintable
 {
     var make: Int
     var plate:  String
+    enum vType
+    {
+        case Car
+        case Motorcycle
+    }
     var v_Type: vType
     
     init(make: Int, plate: String,v_Type: vType) throws

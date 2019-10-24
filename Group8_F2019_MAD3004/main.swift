@@ -18,6 +18,8 @@ var intrn = Intern(schoolName: "Lambton", empID: "E03", empName: "Rajdeep", empA
 
 var fulltime = FullTime(salary: 20000.50, bonus: 100, empID: "E04", empName: "Kang", empAge: 25, earning: 12000, empType: Employee.eType.FullTime)
 
+var c1 = Car(make: 2006, plate: "CH0156", v_Type: Vehicle.vType.Car, carcolour: "Red", carmodel: "Swift")
+
 
 
 maindict.updateValue(cbpt, forKey: cbpt.empID)
